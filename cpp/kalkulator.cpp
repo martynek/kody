@@ -29,5 +29,6 @@ int main(int argc, char **argv)
     else if (znak=='/')
       cout << "a/b" << a/b << endl;
     return 0;
+    
 }
 
