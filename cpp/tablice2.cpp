@@ -7,6 +7,31 @@
 
 using namespace std;
 
+void pobierzDane(int tab[], int ile) {
+    int i;
+
+    cout << "Podaj " << ile << " liczb:"<< endl;
+    for(i = 0; i<ile; i++) {
+        cin >> tab[i];
+    }
+    
+}
+
+int sumuj(int tab[], int ile) {
+    int i;
+    int suma = 0;
+    for(i = 0; i<ile; i++)
+    {
+        cout << "Podane oceny: " << endl;
+        suma += tab[i];
+        cout << tab[i] << " " << endl;
+    }
+    return suma;
+}
+float liczSrednia(int tab[], int ile) {
+    return sumuj(tab,ile)/float(ile);
+    }
+
 int main(int argc, char **argv)
 {
     int rozmiar = 0;
@@ -14,25 +39,14 @@ int main(int argc, char **argv)
     cin >> rozmiar;
     
     int liczby[rozmiar];
-    int i = 0;
-    int suma = 0;
+
+   
+    
+    pobierzDane(liczby, rozmiar);
     
     
-    cout << "Podaj 5 ocen (0-6)" << endl;
-    for(i = 0; i<rozmiar; i++)
-    {
-        cin >> liczby[i];
-    }
-    
-    cout << "Podane oceny: " << endl;
-    
-    for(i = 0; i<rozmiar; i++)
-    {
-        suma += liczby[i];
-        cout << liczby[i] << " " << endl;
-    }
-    cout << "Suma ocen: " << suma << endl;
-    cout << "Srednia ocen: " << float(suma)/float(rozmiar) << endl;
+    cout << "Suma ocen: " << sumuj(liczby,rozmiar) << endl;
+    cout << "Srednia ocen: " << liczSrednia(liczby, rozmiar) << endl;
     
     return 0;
 }
