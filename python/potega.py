@@ -7,13 +7,19 @@
 
 def potega_it(podst, wykladnik):
     """Funkcja oblicza iteracyjnie potege 1. naturalnej"""
-    wynik = ...
+    wynik = 1
     for i in range(wykladnik):
-        wynik = ...
+        wynik = wykladnik*i
     return wynik
 
 
 def main(args):
+    # pobierz od uzytkownika podstawe i wykladnik
+    # i przypisz do odpowiednich zmiennych
+    # wywolaj funkcje potega_it() 
+    int(input("Podaj podstawę: "))
+    int(input("Podaj wykladnik: "))
+    potega_it() 
     return 0
 
 
