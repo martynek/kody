@@ -9,17 +9,25 @@ def potega_it(podst, wykladnik):
     """Funkcja oblicza iteracyjnie potege 1. naturalnej"""
     wynik = 1
     for i in range(wykladnik):
-        wynik = wykladnik*i
+        wynik = wynik * podst
     return wynik
 
 
 def main(args):
     # pobierz od uzytkownika podstawe i wykladnik
     # i przypisz do odpowiednich zmiennych
-    # wywolaj funkcje potega_it() 
-    int(input("Podaj podstawę: "))
-    int(input("Podaj wykladnik: "))
-    potega_it() 
+    # wywolaj funkcje potega_it()
+
+    a = int(input("Podaj podstawę: "))
+    n = int(input("Podaj wykladnik: "))
+    assert type(a) == int
+    assert type(n) == int
+
+    assert potega_it(21, 0) == 1
+    assert potega_it(100, 1) == 100
+    assert potega_it(2, 2) == 4
+
+    # print("Wynik: ", potega_it(a, n))
     return 0
 
 
