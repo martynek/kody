@@ -26,12 +26,17 @@ def minmax(lista):
     for i in range(int(len(lista) / 2)):
         if lista[indeks] > lista[indeks + 1]:
             lmin.append(lista[indeks +1])
-            lmin.append(lista[indeks])
+            lmax.append(lista[indeks])
     else:
             lmin.append(lista[indeks])
-            lmin.append(lista[indeks + 1])
+            lmax.append(lista[indeks + 1])
 
             indeks += 2
+            
+    print("Lista max: ", lmax)
+    print("Lista min: ", lmin)
+
+    return lmax, lmin
 
 
 def losuj(ile, zakres):
