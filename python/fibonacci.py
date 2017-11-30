@@ -19,7 +19,7 @@ def fib_iter(n):
     #    return b
 
     print (a)
-    for i in range(1, n):
+    for i in range(2, n):
         tmp = b
         b = a + b
         a = tmp
@@ -32,12 +32,10 @@ def fib_iter(n):
 def fib_iter2(n):
     a, b = (0, 1)
 
-    print (a)
     while n > 0:
         a, b = b, a + b
-        n = n - 1
         print(a, " ", b, "Iloraz: ", b / a)
-    return b
+        n = n - 1
 
 
 def main(args):
