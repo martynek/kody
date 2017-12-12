@@ -24,6 +24,14 @@ int fib_iter2(int n) {
     
     while(n > 0)
     }
+    
+int fib_rek(int n)
+{
+    if (n == 1)
+        return 1;
+    else
+        return fib_rek((n - 2) + (n - 1))
+}
 
 int main(int argc, char **argv)
 {
