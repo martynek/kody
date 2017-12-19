@@ -7,9 +7,9 @@
 
 using namespace std;
 
-int f4_rek(int tab [], int i)
+int tablica_rek(int tab [], int i)
 {
-    if (i == 1)
+    if (i == 0)
     {
         return tab[0];
     }
@@ -18,13 +18,14 @@ int f4_rek(int tab [], int i)
 
 int main(int argc, char **argv)
 {
-    int i = 0;
+    int i = 5;
     int tab[i];
-    cout << "Podaj liczbę elementow tabeli: " << endl;
-	cin >> i;
     
+    for (i = 1; i <= 5; i++)
     
-    cout << "Zawartosc tabeli: : " << f4_rek9tab[i], i) << endl;
+    {
+    cout << "Zawartosc tabeli: " << tablica_rek(tab, i)<< endl;    
+    }
     
 	return 0;
 }
