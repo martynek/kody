@@ -36,6 +36,13 @@ def fib_iter2(n):
         a, b = b, a + b
         print(a, " ", b, "Iloraz: ", b / a)
         n = n - 1
+        
+# F(1) = 1
+# F(n) = F(n-2) dla n > 1
+def fib_rek(n):
+    if n == 1:
+        return 1
+    return fib_rek((n - 2) + (n - 1))
 
 
 def main(args):

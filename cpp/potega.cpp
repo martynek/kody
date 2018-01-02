@@ -8,6 +8,15 @@
 
 using namespace std;
 
+int potega_rek(int podstawa, int wykladnik)
+{
+    if (wykladnik == 0)
+        return 1;
+    else
+        return potega_rek(podstawa, wykladnik - 1) * podstawa;
+}
+
+
 int main(int argc, char **argv)
 {
     int podstawa = 0;

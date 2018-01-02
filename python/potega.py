@@ -11,6 +11,14 @@ def potega_it(podst, wykladnik):
     for i in range(wykladnik):
         wynik = wynik * podst
     return wynik
+    
+# a0 = 1 - warunek brzegowy
+# an = a(n-1) * a dla n > 0
+
+def potega_rek(podst, wykladnik):
+    if wykladnik == 0:
+        return 1
+    return potega_rek(podst, wykladnik - 1) * podst
 
 
 def main(args):
