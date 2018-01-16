@@ -20,3 +20,10 @@ Jest mozwlie ze algorytm jest czesciowo poprawny
 **dedukcja** - od ogółu do szczegółu
 
 **w poprawnosci algorytmow nalezy uwazac na bledy logiczne!**
+
+**Złożność czasowa** ozaczamy np. O(n), O(n^2), O(n!),
+zalezy od liczby operacji niezbednych do ukonczenia algorytmu
+
+**Złożoność pamięciowa algorytmu **ile pamieci potrzebuje algorytm by zakonczyc swoje dzialanie 
+
+**Efektywność algorytmu**  -   bierze pod uwage praktyczne zastosowanie algorytmu w programie ; zalezy od typu danych 
