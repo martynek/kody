@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-17T11:58:32+01:00
+
+====== Systemy numeryczne ======
+Created środa 17 styczeń 2018
+
+**Systemy addytywne:**
+system liczbowy rzymski
+500 => D
+1000 => M
+
+2018 - MMXVIII
+1530 - MDXXX
+1364 - MCCCLXIV
+
+**Systemy pozycyjne:**
+234(6) = 2 * 6^2 + 3 * 6^1 + 4 * 6^0= 72  + 18 + 4 = 94 
+234(4) nie da sie bo 4 jest skladowa
+234(5) = 2 * 5^2 + 3 * 5^1 + 4 * 5^0 = 50 + 15 + 4 = 69
+
+kolejne potegi liczby dwa: 128, 64, 32, 16, 8, 4, 2, 1
+1111(2) = 8 + 4+ 2+ 1 = 15
+1001(2) = 8 +0 + 0 + 1 = 9
+10010011(2) = 128 + 16 + 2 + 1 = 147
+
+**System o podstawie 16**
+0-9,A,B,C,D,E,F
+FF = 15*16^1 + 15*16^0 = 255
+11111111(2) = 255(10) = FF(16)
+
+**System o podstawie 8:**
+0-7
+644(8) = 6*8^2 + 4*8^1 + 4*8^0 = 6*64 + 32 + 4 = 420
+
+
+
+
+
+
