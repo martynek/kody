@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-31T12:00:53+01:00
+
+====== Python ======
+Created środa 31 styczeń 2018
+
+str**.isdigit()** - sprawdza czy podany lancuch jest cyfra
+
+sekwencja**.reverse** - owrocenie kolejnosci elementow (dla dowolnej uporzadkowanej listy elementow)
+
+str**.join("lacznik"**) - laczy znaki za pomoca lacznika
+
+**ord(znak)**  - kod ASCII znaku
+
+**chr(kod_ASCII)** - zwraca znak o podanym kodzie
+
+**int()** - konwersja na liczbe calkowita
+
+**str()** - konwersja na napis
+
+**len(sekwencja)** - dlugosc sekwencji
+
+**str.format()** - formatowane wyjscie
+
+SEKWENCJE(ang. iterable) - sa to napisy(str),listy,slowniki itp.0
+

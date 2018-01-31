@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-31T12:15:04+01:00
+
+====== Kompresja ======
+Created środa 31 styczeń 2018
+
+unicode
+
+Pierwszym sposobem kompresji jest kod Morse'a
+
+000 111 000 - SOS
+... --- ...
+
+**Kompresja** moze byc:
+- **stratna **(stosowana w multimediach np. png, jpeg) 
+- **bezstratna **(takie ktore musza byc zapisywane w archiwach bez straty danych np.  xllx, pptx, mkv) 
