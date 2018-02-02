@@ -5,13 +5,55 @@ Creation-Date: 2018-01-31T12:15:04+01:00
 ====== Kompresja ======
 Created środa 31 styczeń 2018
 
-unicode
+unicode 
+UTF-8 -  kodowanie wykorzystujaec od 1 do 6 bajtow
 
-Pierwszym sposobem kompresji jest kod Morse'a
+Pierwszym sposobem kompresji jest kod Morse'a(statystyczny)
 
 000 111 000 - SOS
 ... --- ...
 
 **Kompresja** moze byc:
 - **stratna **(stosowana w multimediach np. png, jpeg) 
-- **bezstratna **(takie ktore musza byc zapisywane w archiwach bez straty danych np.  xllx, pptx, mkv) 
+- **bezstratna **(takie ktore musza byc zapisywane w archiwach bez straty danych np.  xllx, pptx, mkv)
+
+**bitrate(przeplywnosc danych) **-  ilosc danych(bitow) na sekunde  
+mp3 - 128 bitow na sekunde
+CD 256 bitow na sekunde
+
+kb - kilobit
+Mb - megabit
+MB - megabajt
+
+NULL  - 0
+LF - 1 - koniec lini
+Cr - 13 -  znak konca linii w systemach Windows sklada sie z LF i CR w Linuxie tylko LF 
+
+
+The rain in Spain falls mainly on the plain. ⇒ 44 znaki
+The rain <3,3> Sp<9,3> falls m<11,3> one t<34, 3> pl<15,3>.  ⇒ 
+<o ile znakow trzeba sie cofnac, ilosc powtarzanych znakow>
+ile znakow wstecz ⇒ 6 bitow
+dlugosc ciagu ⇒ 2 bity
+
+wspolczynnik kompresji = dane skompresowane/ dane nieskompresowane *100
+Rc = vk / vnk *100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
