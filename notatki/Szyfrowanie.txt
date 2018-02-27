@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-27T12:47:58+01:00
+
+====== Szyfrowanie ======
+Created wtorek 27 luty 2018
+
+**SYMETRYCZNE**
+Szyfrowanie polega na ukryciu danych, czyli TEKSTU JAWNEGO(kryptografia)
+Otrzymujemy w ten sposób SZYFROGRAM.
+Odczytanie ukrytej informacji to DESZYFRACJA(kryptoanaliza)
+Do odszyfrowania szyfrogramu potrzebujemy: algorytm szyfrowania oraz klucz.
+
+1. Szyfry podstawieniowe
+Szyfr Cezara, klucz to odległość zastępnika
+
+2. Szyfry przestawieniowe - zapis tekstu w wierszach o ustalonej długości
+Klucz to ilość kolumn, na które dzielimy tekst
+TOBEORNOTTOBETHATISTHEQUESTIONAND
+
+TOBEORNOTT
+OBETHATIST
+HEQUESTION
+AND.......
+TOHAOBENBEQDETU.OHE.
+
+DOM:
+zaszyfrowac dane 
+imie nazwiso date urodzenia i miejsce urodzenia
+trzema szyframi - cezara, przestawieniowego, vingenere'a
+w odp trzeba podac szyfrogram i klucze
+
+**ASYMETRYCZNE**
+protokol: 
+https, 
+ssl , 
+tls
+
+certyfikat - tozsamosc strony
+pretty good privacy - szyfruje poczte elektroniczna
+
+klucz publiczny - ciag cyfr podawany do publicznej wiadomosci 
+algorytm rsa
+
+podpis elektroniczny
+
+ssh
+
+
+
+
