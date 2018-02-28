@@ -1,3 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
 PRACA DOMOWA
 
 1. SZYFR CEZARA, KLUCZ: 1
@@ -10,7 +13,7 @@ Martyna Cieciura - MRYACEIRATN ICUA
 08 marca 2000    - 8MRA20 AC 00
 Sandomierz       - SNOIRADMEZ
 
-1. SZYFR VINGENERE'A, KLUCZ: 3
-Martyna Cieciura - LZQSXMZ BHDBHTQZ
-08 marca 2000    - 8 LZQBZ 2000
-Sandomierz       - RZMCNLHDQY
+1. SZYFR VINGENERE'A, KLUCZ:
+Martyna Cieciura - 
+08 marca 2000    - 
+Sandomierz       - 
