@@ -1,0 +1,46 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-02T11:07:10+01:00
+
+====== Komputer ======
+Created piątek 02 marzec 2018
+
+Architektura von Neumanna
+
+**Logiczne skladniki komputera:**
+
+1. **Procesor** - logiczna jednostka arytmetyczny
+
+-jesli mamy napiecie od 3 do 5 V to wtedy mamy doczynienia z logiczna jedynka 
+
+-procesor sklada sie z rejestrow. Jednym z nich jest akumulator.
+
+-Rozmiary rejestrów wspolczesnego procesora: 64 bity 
+
+2. **Pamiec (RAM)**
+
+3. **Jednostka sterujaca** 
+
+-synchronizuje prace logicznych modułow komputera 
+
+-za pomoca szyny systemowej jednostka komunikuje sie z pamiecia i procesorem 
+
+-szyna danych sluzy do przesylania tych danych w odpowiedniej czestotliwosci 
+
+-szyna adresowa decyduje gdzie trafiaja odpowiednie dane
+
+- czesc danych bierze sie  z pamieci ROM(pamiec tylko do odczytu), w odroznieniu od RAMU zapisuej dane na stale
+
+- BIOS podstawowy system wejscia-wyjscia
+
+-EFI - nastepca BIOS-u w komputerach osobistych
+
+4. **Urzadzenia wejscia i wyjscia **- urzadzenia pamieci masowej
+
+
+
+
+
+
+
+ 
