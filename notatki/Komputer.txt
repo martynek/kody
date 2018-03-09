@@ -37,6 +37,28 @@ Architektura von Neumanna
 
 4. **Urzadzenia wejscia i wyjscia **- urzadzenia pamieci masowej
 
+SYSTEMY OPERACYJNE
+Otwarty system operacyjny 
+1. Jest on uniwersalny np. Linux
+Debian - jeden z najstarszych systemów operacyjnych
+amd64 - architektura 64-bitowa
+i386(x86) - architektura 32-bitowa
+ARM
+2.Źródła oprogramowania są dostępne publicznie
+
+Hardware, software, user
+Funkcje systemu operacyjnego:
+- jądro: warstwa oprogramowania operująca bezpośrednio na sprzęcie 
+sterowniki 
+Jądra monolityczne jest szybkie, bardzo wydajne
+Jądra hybrydowe są wolniejsze ale stabilniejsze
+- wirtualizacja
+- nadzoruje działanie komputera
+- zarządzanie zasobami sprzętu
+Pierwsze systemy były przeznaczone dla jednego użytkownika a obecnie dla wielu. 
+Interface tekstowy był udostępniany w formie terminala
+Interface graficzny(okienkowy)
+
 
 
 
