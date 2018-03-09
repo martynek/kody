@@ -37,7 +37,7 @@ Architektura von Neumanna
 
 4. **Urzadzenia wejscia i wyjscia **- urzadzenia pamieci masowej
 
-SYSTEMY OPERACYJNE
+**SYSTEMY OPERACYJNE**
 Otwarty system operacyjny 
 1. Jest on uniwersalny np. Linux
 Debian - jeden z najstarszych systemów operacyjnych
@@ -59,8 +59,35 @@ Pierwsze systemy były przeznaczone dla jednego użytkownika a obecnie dla wielu
 Interface tekstowy był udostępniany w formie terminala
 Interface graficzny(okienkowy)
 
+**Systemy operacyjne Microsoft**
+MS-DOS system operacyjny stworxony przez firme Microsoft na podstawie nabytego przez nia kodu zrodlowego systemu QDOS
+
+litery A i B byly zarezerwowame dla dyskietek elastycznych
+c:\ - katalog glowny
+dir c:\ - w dosie
+ls / - w linuxie
+.. - poziom o gory
+w windowskie pliki musza miec swoje rozszerzenia, w linuxie natomiast plik rozpoznawany jest po naglowku, nie ma potrzeby uzywania rozszerzen.
+
+com,exe - dos
+brak rozszerzen - linux
+
+**Dos:**
+atrybut a - plik zapisany na dysku
+atrybut r  - tylko do odczytu
+atrybut h - plik ukryty
+atrybut s - plik systemowy
+
+- nie byl w stanie obsluzyc wiecej niz 640 kB danych
+- wykorzystywal tryb rzeczywisty procesora
+
+**Linux:**
 
 
+**Windows 3.11:**
+Microsof wymyslil: pasek tytulu, menu, interfejs graficzny, przyciski minimalizacji/maksymalizacji, ikony. Ustandaryzował on interfejs.
+
+**windows 8** - interfejs kafelkowy
 
 
 
