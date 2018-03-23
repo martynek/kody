@@ -1,0 +1,55 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-23T10:57:30+01:00
+
+====== Sieci komputerowe ======
+Created piątek 23 marzec 2018
+
+Host- dowolne urządzenie podłączone do sieci
+Serwer - dowolny host udostępniający usługe
+Klient - żąda dostępu do usługi
+
+1. Sieć lokalna: ethernet, kabel zwany skrętką z wtyczką RJ 45, switch - przełącznik sieciowy, topologia gwiazdy, router ma połączyć sieć lokalną z zewnętrzną
+WAN - sieć rozległa
+Router ma dwa interfejsy: wewnętrzny i zewnętrzny
+Adres IP
+Domyślna trasa (brama)
+Adres serwera DNS
+Internet - sieć sieci
+Sieć szkieletowa
+Protokół sieciowy np. http, ftp, TCP, IP
+
+Model TCP/IP
+Model OSI
+Aplikacje: protokoły: HTTP, FTP, POP, IMAP - protokoły pocztowe, SSH - do łączenia między komputerami
+mvps hosts
+System DNS - baza rozproszona
+TLD- domeny najwyższego poziomu
+Adres url: protokół:// poddomena/ domena
+
+Protokol TCP jest polaczeniowy,  niezawodny i stanowy
+
+Port sieciowy 
+porty majace numer o 0 do 1000 sa portami dobrze znanymi 
+numer sekwencyjny i suma kontrolna zapewniaja niezawodnosc
+
+UDP
+
+**Protokol IP:**
+Najwazniejszym podzialem jest to ze wyrozniamy adresy prywatne i publiczne
+
+192.168.3.3/24
+pierwsze trzy liczby to adres sieci
+do jednej sieci moze byc podpiete max 254
+
+192.168.3.253 → BROADCAST
+
+
+→ → → → → ← ← ← ← ← ← ← → → → → → ← ← ← ← ← ← ← → → → → → ← ← ← ← ← ← ← → → → → → ← ← ← ← ← ← ← → → → → → ← ← ← ← ← ← ← → → → → → ← ← ← ← ← ← ← → → → → → ← ← ← ← ← ← ← 
+
+Router zamienia adresy lokalne na publiczne i odwrotnie 
+
+
+
+
+

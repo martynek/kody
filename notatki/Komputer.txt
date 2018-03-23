@@ -81,13 +81,21 @@ atrybut s - plik systemowy
 - nie byl w stanie obsluzyc wiecej niz 640 kB danych
 - wykorzystywal tryb rzeczywisty procesora
 
-**Linux:**
-
-
 **Windows 3.11:**
 Microsof wymyslil: pasek tytulu, menu, interfejs graficzny, przyciski minimalizacji/maksymalizacji, ikony. Ustandaryzował on interfejs.
 
-**windows 8** - interfejs kafelkowy
+**windows 8** - interfejs kafelkowy 
+
+Systemy windowsa i apple sa wlasnosciowe
+program rufus sluzy do wypalania
+
+partycja - czesc dysku
+istnieja dwa sposoby partycjowania 
+
+**LINUX**
+-system dostepny dla kazdego(open source)
+- dystrybucja sklada sie z jadra oraz oprogramowaia dodatkowego
+- dystybucje linuxa: ubuntu, debian
 
 
 
