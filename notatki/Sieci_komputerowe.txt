@@ -1,4 +1,4 @@
-Content-Type: text/x-zim-wiki
+﻿Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-03-23T10:57:30+01:00
 
@@ -37,6 +37,36 @@ UDP
 
 **Protokol IP:**
 Najwazniejszym podzialem jest to ze wyrozniamy adresy prywatne i publiczne
+
+Protokoły pracujące w warstwie aplikacji: http smtp ftp pop
+nazwa domenowa --> ip --> dns
+udp - zawodny, bezpolaczeniowy
+warstwa transportowa - udp,tcp
+przelacznik wydajniejszy bo zmniejsza natezenie ruchu sieci
+poczta mechanizmy pop3s smtps
+w przegladarce otworzy sie strona hostowana na serwerze lokalnym
+zdalna praca - telnet
+mozna zaadresowac 254
+roz 192.168.10.255, sieci 192.168.10.0/24
+maska pozwala ustalic adres sieci.. lub rozroznaic..
+porty dns 53 www 80
+komunikacje w sieci zapewnia tcp/ip
+polecenia do diagnostyki polaczen sieciowych : ping,traceroute
+host otrzymuje brame domyslna, adres ip, adres serwera dns
+protokol https wykorzystuje szyfrownaie.. ssl
+mechanizmy umozliwiajace prace z wykorzysta.. vnc, rdc
+polecenia tracert ping,, icmp
+mechanizm gniazd sieciowych .. protokolu ip i portu
+automatyczna konfigracja ip:dhcp
+adresi ip: musza roznic sie od siebie,nalezec do klasy adresow prywatnych
+adresy mac: arp
+funkcje routera translacja adresow.. umozliwia laczenie roznych sieci 
+warstwy z modelu..wchodzace w sklad warstwy aplikaci.. warstwa sesji i prezentacji
+protokoly pracujace w warstwie sieci ip,icmp
+protokol tcp --> niezawodny,polaczeniowy
+ siec (skretka)najczesciej wykorzystuje topologie: gwiazdy
+linux konfiguracja sieci: ip addr netstat
+
 
 192.168.3.3/24
 pierwsze trzy liczby to adres sieci
