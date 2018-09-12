@@ -34,12 +34,15 @@ int main(int argc, char **argv)
 {
 
     char znak; // +, -, *, /
-    int a, b;
+    float a, b;
     a=b=0;
-    cout << "Podaj dwie liczby: " << endl;
-    cin >> a >>b;
+    
+    while(znak=='-' || '+' || '*' || '/') {
     cout << "Podaj znak: " << endl;
     cin >> znak;
+    cout << "Podaj dwie liczby: " << endl;
+    cin >> a >>b;
+    
     
     if (znak=='+')
     {
@@ -51,7 +54,9 @@ int main(int argc, char **argv)
       cout << "Iloczyn: " << iloczyn(a,b) << endl;
     else if (znak=='/')
       cout << "Iloraz: " << dziel(a,b) << endl;
+      
+}
     return 0;
-    
+
 }
 
