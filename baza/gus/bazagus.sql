@@ -17,7 +17,7 @@ CREATE TABLE miasta (
  --sqlite>.quit - wyjscie z interpretera
  
  CREATE TABLE dane_demograficzne (
-    id INTEGER PRIMARY KEY,
+    id INTEGER,
     liczba_mieszkancow INTEGER,
     liczba_kobiet INTEGER,
     grupa_wiekowa TEXT(15),
@@ -27,7 +27,7 @@ CREATE TABLE miasta (
  );
 
 CREATE TABLE powierzchnie (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER,
     powierzchnia DECIMAL,
     powierzchnie_zielone DECIMAL,
     data_akt DATE,
