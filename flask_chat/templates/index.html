@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<!--
+   index.html
+-->
+
+<head>
+<meta charset="utf-8" />
+<title>Czat - Pytania</title>
+<meta name="generator" content="Geany 1.32" />
+</head>
+
+<body>
+    <h1>Lista pytan </h1>
+    
+    {% for obj in query %}
+    <p>
+    <!-- wypisujemy id i tresc pytania-->
+    {{ obj.id }} {{ obj.pytanie }}
+    
+    </p>
+    {% endfor %}
+</body>
+
+</html>

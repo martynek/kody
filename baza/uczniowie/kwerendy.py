@@ -6,11 +6,13 @@ import sqlite3
 
 def kwerenda1(cur):
     cur.execute("""
-        SELECT klasa, AVG(ocena) AS srednia FROM oceny
-        INNER JOIN uczniowie ON uczniowie.id=oceny.id_uczen
+        SELECT klasa, przedmiot, AVG(ocena) AS srednia FROM oceny
+        INNER JOIN przedmioty ON oceny.id_przedmiot=przedmioty.id
+        INNER JOIN uczniowie ON oceny.id_uczen=uczniowie.id
         INNER JOIN klasy ON uczniowie.id_klasa=klasy.id
-        GROUP BY klasy.id
-        ORDER BY srednia DESC
+        WHERE przedmiot = 'matematyka'
+        GROUP BY klasa
+        ORDER BY srednia ASC
     """)
     
     #SELECT * FROM nazwiska WHERE nazwisko LIKE 'G%'
@@ -48,6 +50,16 @@ def kwerenda1(cur):
        # GROUP BY uczniowie.id)
        # SELECT COUNT(srednia) FROM srednie
        # WHERE srednia > 3.8    
+       
+    #SELECT klasa, AVG(ocena) AS srednia FROM oceny
+        #INNER JOIN uczniowie ON uczniowie.id=oceny.id_uczen
+       # INNER JOIN klasy ON uczniowie.id_klasa=klasy.id
+       # GROUP BY klasy.id
+       # ORDER BY srednia DESC
+       
+    #SELECT przedmiot, AVG(ocena) FROM oceny
+       # INNER JOIN przedmioty ON oceny.id_przedmiot=przedmioty.id
+       # GROUP BY przedmiot
     
     for row in cur.fetchall():
         print(tuple(row))
