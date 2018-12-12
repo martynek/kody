@@ -2,30 +2,30 @@
 # -*- coding: utf-8 -*-
 #
 #  baza.py
-
 import csv
-import sqlite3
 import os.path
 from modele import *
 
+
 def czy_jest(plik):
-    """funckja sprawdza czy pilki istnieje na dysku"""
+    """F. sprawdza, czy plik istnieje na dysku"""
     if not os.path.isfile(plik):
-        print ("Plik {} nie istnieje!".format(plik))
+        print("Plik {} nie istnieje!".format(plik))
         return False
-    return True 
-        
+    return True
+
 def czytaj_dane(plik, separator=","):
-    dane = [] # pusta lista na rekordy
+    dane = []  # pusta lista na rekordy
     
     if not czy_jest(plik):
         return dane
-        
+    
     with open(plik, 'r', newline='', encoding='utf-8') as plikcsv:
         tresc = csv.reader(plikcsv, delimiter=separator)
         for rekord in tresc:
             dane.append(tuple(rekord))
     return dane
+
 
 def dodaj_dane(dane):
     
@@ -34,17 +34,17 @@ def dodaj_dane(dane):
         pola.pop(0)  # usuwamy pola id
         print(pola)
         
-        wpisy = czytaj_dane(plik + '.csv')
+        wpisy = czytaj_dane(plik + '.csv', ';')
         model.insert_many(wpisy, fields=pola).execute()
 
 
 def main(args):
-    if os.path.exists('quiz.db'):
-        os.remove('quiz.db')
-    baza.connect()  # połączenie z bazą
+    if os.path.exists(baza_nazwa):
+        os.remove(baza_nazwa)
+    baza.connect()  # poĹÄczenie z bazÄ
     baza.create_tables([Kategoria, Pytanie, Odpowiedz])  # tworzymy tabele
 
-    baza = {
+    dane = {
         Kategoria: 'kategorie',
         Pytanie: 'pytania',
         Odpowiedz: 'odpowiedzi',
@@ -60,3 +60,4 @@ def main(args):
 if __name__ == '__main__':
     import sys
     sys.exit(main(sys.argv))
+

@@ -6,20 +6,15 @@
 
 <head>
 <meta charset="utf-8" />
-<title>Czat - Pytania</title>
-<meta name="generator" content="Geany 1.32" />
+<title>Quiz</title>
 </head>
 
 <body>
-    <h1>Lista pytan </h1>
+    <h1>Witamy w aplikacji Quiz! </h1>
     
-    {% for obj in query %}
-    <p>
-    <!-- wypisujemy id i tresc pytania-->
-    {{ obj.id }} {{ obj.pytanie }}
-    
-    </p>
-    {% endfor %}
+    <ol>
+        <li><a href="/quiz">Pytania</a></li>
+    </ol>
 </body>
 
 </html>

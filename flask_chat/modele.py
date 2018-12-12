@@ -4,29 +4,27 @@
 #  modele.py
 
 from peewee import *
-baza = SqliteDatabase('quiz.db')
 
-class BaseModel(Model):
+baza_nazwa = 'quiz.db'
+baza = SqliteDatabase(baza_nazwa)  # instancja bazy
+
+### MODELE #
+class BazaModel(Model):
     class Meta:
         database = baza
-        
-class Kategoria(BaseModel):
+
+class Kategoria(BazaModel):
     kategoria = CharField(null=False)
-        
-class Pytanie(BaseModel):
+
+class Pytanie(BazaModel):
     pytanie = CharField(null=False)
-    id_kat = ForeignKeyField(Kategoria, related_name="id")
-    
-class Odpowiedz(BaseModel):
-    id_p = ForeignKeyField(Pytanie, related_name="id")
+    kategoria = ForeignKeyField(Kategoria, related_name='pytania')
+
+class Odpowiedz(BazaModel):
     odpowiedz = CharField(null=False)
-    odpok = BooleanField(default=0)
-    
-    
+    pytanie = ForeignKeyField(Pytanie, related_name='odpowiedzi')
+    odpok = BooleanField()
 
-
-def main(args):
-    return 0
 
 if __name__ == '__main__':
     import sys
