@@ -3,14 +3,11 @@
 {% block h1 %} Lista Pytan {% endblock %}
 {% block tresc %}
 
-    
-    <form method="POST">
+    <h2> Lista pytań</h2>
+    <ol>
     {% for p in query %}
-    <p>
     <!-- wypisujemy id i tresc pytania-->
-        {{ p.id }} {{ p.pytanie }}
-    </p>
+        <li>{{ p.pytanie }} </li>
     {% endfor %}
-    <input type="submit" value="Zapisz">
-    </form>
+   </ol>
 {% endblock %}

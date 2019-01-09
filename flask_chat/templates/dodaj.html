@@ -2,23 +2,27 @@
 {% block tytul %} Quiz{% endblock %}
 {% block h1 %} Quiz - dodawanie pytan {% endblock %}
 {% block tresc %}
+
+    <h2> Dodaj pytanie</h2>
+
     <form method="POST" action="">
-    {{ form.csrf_token }}
+        <div class="form-group">
+        {{ form.csrf_token }}
     
-    {{ form.pytanie.label }}<br>
-    {{ form.pytanie }}<br>
-    <br>
-    {{ form.kategoria.label }}<br>
-    {{ form.kategoria }}<br>
-    <br>
+        {{ form.pytanie.label }}<br>
+        {{ form.pytanie(class_="form-control") }}<br>
+        <br>
+        {{ form.kategoria.label }}<br>
+        {{ form.kategoria(class_="form-control") }}<br>
+        <br>
     <label> Podaj odpowiedzi i zaznacz poprawna</label><br>
     <ol>
     {% for o in form.odpowiedzi %}
         <li>{{ o }}</li>
     {% endfor%}
     </ol>
-    <input type="submit" value="Zapisz pytanie">
-    
+    <input type="submit" class="btn btn-default" value="Zapisz pytanie">
+    </div>
     </form>
     
 {% endblock%}
